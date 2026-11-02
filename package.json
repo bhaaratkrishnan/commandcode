@@ -1,0 +1,11 @@
+{
+	"name": "bhaaratkrishnan-commandcode-mods",
+	"version": "1.0.0",
+	"description": "Command Code mods: herdr-desktop reports agent status (idle/working/blocked) to the Herdr desktop app via OSC 7501.",
+	"keywords": ["cmd-mod", "cmd-mod-command"],
+	"repository": "https://github.com/bhaaratkrishnan/commandcode",
+	"license": "MIT",
+	"commandcode": {
+		"mods": ["mods/herdr-desktop/herdr-osc.ts"]
+	}
+}
